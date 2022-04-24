@@ -1,0 +1,12 @@
+{
+  "name": "toumei-twitter",
+  "description": "hito no tweet wo mienaku suruyo",
+  "version": "0.1.0",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": ["https://twitter.com/*"],
+      "css": ["styles.css"]
+    }
+  ]
+}
